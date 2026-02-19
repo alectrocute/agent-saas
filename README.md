@@ -1,6 +1,8 @@
-# agents.alec.is
+# Agent SaaS on Cloudflare Containers
 
 Self-hosted, multi-tenant agent platform on Cloudflare (Pages + Containers).
+
+See the blog post [here](https://alec.is/posts/building-an-agent-saas-with-cloudflare-containers/).
 
 ## Run locally
 
