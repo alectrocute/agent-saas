@@ -1,0 +1,32 @@
+{
+  "name": "picohost-instance-2",
+  "main": "worker.js",
+  "compatibility_date": "2025-06-27",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "containers": [
+    {
+      "name": "picohost-instance-2",
+      "class_name": "InstanceContainer",
+      "image": "./Dockerfile",
+      "max_instances": 301
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "INSTANCE_CONTAINER",
+        "class_name": "InstanceContainer"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["InstanceContainer"]
+    }
+  ]
+}

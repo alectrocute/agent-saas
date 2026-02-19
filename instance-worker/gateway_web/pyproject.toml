@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picohost-gateway"
+version = "0.1.0"
+description = "Nanobot gateway with HTTP POST /agent for picohost web chat"
+requires-python = ">=3.11"
+dependencies = [
+    "nanobot-ai",
+    "aiohttp",
+]
+
+[project.scripts]
+picohost-gateway = "picohost_gateway.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["picohost_gateway*"]

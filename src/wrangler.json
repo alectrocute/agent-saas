@@ -1,0 +1,13 @@
+{
+    "d1_databases": [
+        {
+            "binding": "picohost",
+            "database_name": "picohost",
+            "database_id": "849f6b6d-0440-4393-b2d8-ccad653f01d1",
+            "remote": true
+        }
+    ],
+    "vars": {
+        "INSTANCE_PUBLIC_URL": "https://picohost-instance-2.alectrocute.workers.dev"
+    }
+}
