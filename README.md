@@ -4,6 +4,8 @@ Self-hosted, multi-tenant agent platform on Cloudflare (Pages + Containers).
 
 See the blog post [here](https://alec.is/posts/building-an-agent-saas-with-cloudflare-containers/).
 
+There is a demo instance, which may or may not be running at the time of visiting [here](https://agents.alec.is).
+
 ## Run locally
 
 ```bash
